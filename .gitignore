@@ -1,4 +1,8 @@
-.idea
+node_modules/
+dist/
+.DS_Store
+*.log
+.env.idea
 Thumbs.db*
 .DS_Store*
 HELP.md
@@ -85,3 +89,5 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+dist/

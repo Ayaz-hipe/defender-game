@@ -15,22 +15,19 @@
   },
   "license": "ISC",
   "author": "Aiaz",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "build": "babel src -d dist",
     "lint": "eslint ."
   },
-  "devDependencies": {
-    "@babel/cli": "^8.0.4",
-    "@babel/core": "^8.0.1",
-    "@babel/preset-env": "^8.0.2",
-    "@eslint/js": "^10.0.1",
-    "eslint": "^8.57.1",
-    "globals": "^17.11.0"
-  },
   "dependencies": {
     "core-js": "^3.50.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "eslint": "^8.57.1"
   }
 }
